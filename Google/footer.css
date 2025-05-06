@@ -1,0 +1,47 @@
+.bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.pays{
+  font-size: 0.95em;
+  margin-top: 1em;
+  padding-left: 1.4em;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 0.8em;
+}
+
+.link-right{
+  display: flex;
+  gap: 1em;
+  padding-right: 2em;
+}
+
+.left-2{
+display: flex;
+gap: 1.2em;
+padding-left: 1.5em;
+}
+
+.element-2{
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.element-2:hover {
+  text-decoration: underline;
+}
+
+.bottom-line {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin-bottom: 1em;
+}

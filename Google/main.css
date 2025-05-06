@@ -1,0 +1,70 @@
+body{
+  font-family: Arial, sans-serif;
+}
+
+.main-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38em;
+}
+
+
+.taille-l{
+  height: 7.5em;
+  width: auto;
+  padding: 1em;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 34em;
+  max-width: 90%;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 0.7em 0.7em;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.search-bar input {
+border: none;
+outline: none;
+}
+
+.buttons{
+  display: flex;
+  margin-top: 1.1em;
+  gap: 0.8em;
+}
+
+.buttons button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  padding: 0.6em 1em;
+  font-size: 0.9em;
+  color: #3c4043;
+  border-radius: 0.2em;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.buttons button:hover {
+  background-color: #f1f3f4;
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.loupe{
+  opacity: 50%;
+  width: 1.2em;
+ display: flex;
+ justify-content: left;
+}
+
+.logos_r{
+  margin-left: 18em;
+  display: flex;
+  gap: 1em;
+}
